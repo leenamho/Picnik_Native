@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/color_maincolor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- nav 포함 투명도 적용하여 엑티비티 시작화면이 다름 -->
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Picnik</item>
+    </style>
+
+    <style name="ActionBar.Solid.Picnik" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@color/color_maincolor</item>
+    </style>
+
+    <!-- loading 부분 -->
+    <style name="AppTheme_loading" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/color_white</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- nav 포함 투명도 적용하여 엑티비티 시작화면이 다름 -->
+        <item name="android:fitsSystemWindows">false</item>
+        <!--<item name="android:actionBarStyle">@style/ActionBar.Solid.Picnik</item>-->
+    </style>
+</resources>
